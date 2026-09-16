@@ -9,12 +9,12 @@ To ensure logical execution flows and map user engagement pathways before progra
 ### 1. State Transition Architecture
 The execution engine relies on a strict finite state machine layout to track global player placement, condition branching, and core game loops (e.g., handling transition dependencies between exploring, inventory assessment, and accusation thresholds).
 
-![State Transition Diagram](CS State Transition Diagram.jpeg)
+![State Transition Diagram](<CS State Transition Diagram.jpeg>)
 
 ### 2. Behavioral Use Case Modeling
 A Unified Modeling Language (UML) behavioral schema maps out user action allowances, dependency inclusion layers (such as extracting clue metrics during standard room searches), and extension states like secondary tactical events upon triggering an accusation.
 
-![Use Case Diagram](CS Use Case Diagram.jpeg)
+![Use Case Diagram](<CS Use Case Diagram.jpeg>)
 
 ## Core Technical Features
 * **Dynamic Mystery Initialization:** Implements Python's native `random.choice` and `random.sample` algorithms to dynamically select a random killer, generate true evidence vectors, and seed randomized decoy clues across different rooms during each execution.
